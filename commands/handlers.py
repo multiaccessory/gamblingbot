@@ -38,11 +38,11 @@ class EnhancedHandlers(commands.Cog):
 ╔══════════════════════════════════════════════════════════════╗
 ║                    🎰 GAMBLING BOT READY 🎰                  ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Bot: {self.bot.user.name:<48} ║
-║  ID: {self.bot.user.id:<49} ║
-║  Guilds: {len(self.bot.guilds):<46} ║
-║  Members: {total_members:<45} ║
-║  Commands: {len([cmd for cmd in self.bot.tree.walk_commands()]):<44} ║
+║  Bot: {self.bot.user.name:<48}║
+║  ID: {self.bot.user.id:<49}║
+║  Guilds: {len(self.bot.guilds):<46}║
+║  Members: {total_members:<45}║
+║  Commands: {len([cmd for cmd in self.bot.tree.walk_commands()]):<44}║
 ╚══════════════════════════════════════════════════════════════╝
         """)
 
