@@ -9,7 +9,7 @@
             "name": "PowerShell: Launch Current File",
             "type": "PowerShell",
             "request": "launch",
-            "script": "./main.ps1",
+            "script": "./bot.ps1",
             "args": []
         }
     ]
