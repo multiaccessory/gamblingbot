@@ -22,7 +22,7 @@ if (-not (Get-Command "$BotScriptRoot\.venv\Scripts\Activate.ps1" -ErrorAction S
 # Upgrade pip to the latest version
 & "$BotScriptRoot\.venv\Scripts\python.exe" -m pip install --upgrade pip
 # Install required Python packages
-& "$BotScriptRoot\.venv\Scripts\python.exe" -m pip install discord.py python-dotenv psutil
+& "$BotScriptRoot\.venv\Scripts\python.exe" -m pip install discord.py python-dotenv psutil Pillow
 # Run the Python script
 & "$BotScriptRoot\.venv\Scripts\python.exe" "$BotScriptRoot\main.py" -i "$BotScriptRoot\input" -o "$BotScriptRoot\output"
 #remove the virtual environment after execution
